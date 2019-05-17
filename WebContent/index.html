@@ -1,21 +1,101 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-body{
-color:orange;
-font-family:sans-sarif;
-}
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Portfolio</title>
+		<style>
+				.texto {
+				color:white;
+			}
+		
+			a:hover {
+				background-color: gray;
+			}
+		
+			.text-content {
+				color: black;
+			}
+				body {
+				background-color:black;
+				font-family: Arial, Verdana, Tahoma, Sans-Serif
+			}
+				
+			.img {
+				width: 200px;
+				height: 250px;
+			}
+			
+			#titulo-pagina{
+				font-size: 100px;
+				color:red;
+				text-align:center;
+			}
+				.menu {
+				height: 1px;
+				top:200px;
+				float:left;
+				}
+				
+			#top{
+				text-decoration: none;
+			}
+			
+		
+		</style>
+	</head>
+	<body>
+	
+	
+		
+		<div class="menu">
+		
 
-</style>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
+			<h5><a href="escolariedade"><button>Nível de Escolaridade</button></a></h5>
+						<h5><a href="#sobre"><button>sobre mim</button></a></h5>
+			<h5><a href="#trabalho"><button>Trabalhos Realizados</button></a></h5>
 
-<body>
-<h1>Primeiro projeto criado na disciplina web1 </h1>
-
-
+			<h5><a href="#contato"><button>Contato</button></a></h5>
+		</div>	
+			<h1 class="texto" id="titulo-pagina">Portifólio</h1>
+		
+		<div class="img">
+			<img alt="foto do perfil" src="imagem/perfil.jpg" width="150px">
+		</div>
+	
+		
+		<h2 id="escolariedade" class="texto">Escolaridade:</h2><br>
+		
+		<ul class="texto">
+			<li>
+				<strong>Ensino Fundamental:</strong> <span class="texto">Coêlho Lisboa (2005);</span>
+			</li>
+			<li >
+				<strong >Ensino Médio:</strong> <span class="texto-content">Padre Jerônimo Lauwen (2016);</span>
+			</li>
+			<li>
+				<strong>Técnico:</strong> <span class="texto-content">Informática - IFPB (2019);</span><br>
+			</li>
+		</ul><br>
+			<h2 id="sobre" class="texto">Sobre mim:</h2>
+		
+		<p class="texto" ><em>"Me chamo Rodrigo, tenho 20 anos, resido na cidade Santa Luzia PB e sou estudante do curso tecnico em informática "</em></p><br>
+		
+		<h2 id="trabalho" class="texto">Trabalhos Realizados:</h2>
+		
+		<ul class="texto">
+			<li>
+				<strong>Recepcionista:</strong> <span class="texto">De 2016 até 2017;</span>
+			</li><br>
+		
+		</ul >
+		<h2i id="contato" class="texto">Contato:</h2>
+		<UL class="texto">
+		<LI>Numero: 83 9963-9046</LI>
+		<LI>Email: rodrigoscarvalho21@gmail.com</LI>
+		</UL><br>
+		
+		<p><a id="topo" href="#titulo-pagina"><strong>voltar para o inicio da pagina</strong></a></p>
+	</body>
+</html>
 </body>
-
 </html>
